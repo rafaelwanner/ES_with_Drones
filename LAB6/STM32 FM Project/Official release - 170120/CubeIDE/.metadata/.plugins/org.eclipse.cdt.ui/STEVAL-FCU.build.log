@@ -1,0 +1,7 @@
+07:56:10 **** Clean-only build of configuration Debug for project STEVAL-FCU ****
+make clean 
+rm -rf *
+ 
+
+07:56:10 Build Finished. 0 errors, 0 warnings. (took 285ms)
+
