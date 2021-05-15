@@ -2846,7 +2846,7 @@ int main(void)
  8001d58:	b21a      	sxth	r2, r3
  8001d5a:	4b64      	ldr	r3, [pc, #400]	; (8001eec <main+0x93c>)
  8001d5c:	801a      	strh	r2, [r3, #0]
-			if ((gJoystick_status&0x04)==0x04 & safety_flag){
+			if (((gJoystick_status&0x04)==0x04) & safety_flag){
  8001d5e:	4b63      	ldr	r3, [pc, #396]	; (8001eec <main+0x93c>)
  8001d60:	f9b3 3000 	ldrsh.w	r3, [r3]
  8001d64:	b29b      	uxth	r3, r3
