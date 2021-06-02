@@ -1,4 +1,0 @@
-steval_fcu001_v1_ToF.c:75:5:DetectSensors	24	static
-steval_fcu001_v1_ToF.c:130:6:SetupSingleShot	48	static
-steval_fcu001_v1_ToF.c:243:6:Sensor_SetNewRange	16	static
-steval_fcu001_v1_ToF.c:262:10:BSP_ToF_Get_Distance	16	static
