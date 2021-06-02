@@ -124,13 +124,13 @@ void ReadSensorRawData(void *ACC_handle, void *GYR_handle, void *MAG_handle, voi
     else if (COORDINATE_SYSTEM == 3)
     {
      
-      acc->AXIS_X = -acc_temp.AXIS_Y;
+      acc->AXIS_X = acc_temp.AXIS_Y;
       acc->AXIS_Y = acc_temp.AXIS_X;
-      acc->AXIS_Z = acc_temp.AXIS_Z;
+      acc->AXIS_Z = -acc_temp.AXIS_Z;
       
-      gyro->AXIS_X = -gyro_temp.AXIS_Y;
+      gyro->AXIS_X = gyro_temp.AXIS_Y;
       gyro->AXIS_Y = gyro_temp.AXIS_X;
-      gyro->AXIS_Z = gyro_temp.AXIS_Z;
+      gyro->AXIS_Z = -gyro_temp.AXIS_Z;
       
       // convert mag
       t1 = mag->AXIS_X;

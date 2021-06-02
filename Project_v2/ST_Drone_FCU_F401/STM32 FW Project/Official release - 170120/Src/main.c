@@ -303,20 +303,7 @@ int main(void)
 	/* USER CODE BEGIN 2 */
 
 
-	struct VL53L0xData readout_data;
 
-	VL53L0x_init(&hi2c2);
-
-	while(1) {
-	  HAL_Delay(1000);
-
-	  int checksensor = VL53L0x_Check(&hi2c2);
-	  VL53L0x_StartConversion(&hi2c2);
-	  VL53L0x_ReadDistance(&hi2c2, &readout_data);
-
-	  PRINTF("Status: %d \n", checksensor);
-	  PRINTF("Distance: %d mm\n", readout_data.dist_last);
-	}
 
 
 
