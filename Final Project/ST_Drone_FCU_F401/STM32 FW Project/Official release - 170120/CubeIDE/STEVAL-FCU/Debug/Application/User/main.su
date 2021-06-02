@@ -1,0 +1,17 @@
+main.c:226:5:main	32	static
+main.c:706:6:SystemClock_Config	88	static
+main.c:755:6:MX_ADC1_Init	24	static
+main.c:829:13:MX_I2C2_Init	8	static
+main.c:856:6:MX_TIM2_Init	48	static
+main.c:894:6:MX_TIM4_Init	64	static
+main.c:940:6:MX_TIM9_Init	24	static
+main.c:958:6:MX_USART1_UART_Init	8	static
+main.c:982:6:MX_GPIO_Init	40	static
+main.c:1006:6:HAL_TIM_PeriodElapsedCallback	48	static
+main.c:1185:13:initializeAllSensors	8	static
+main.c:1221:6:enableAllSensors	8	static
+main.c:1237:6:BlueNRG_Init	80	static
+main.c:1381:13:Init_BlueNRG_Custom_Services	16	static
+main.c:1412:13:SendMotionData	48	static
+main.c:1441:13:SendBattEnvData	32	static
+main.c:1481:13:SendArmingData	8	static
